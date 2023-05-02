@@ -1,0 +1,169 @@
+
+//หน้าต่างล็อกอิน และเมื่อใส่รหัสผิดขึ้นหน้าต่างข้อผิดพลาด
+Class Public Class Form1
+    Private Sub ButtonLogin_Click(ByVal sender As System"Object, ByVal e As System.EventArgs) Handles ButtonLogin_Click
+        If username.text = My.Setting.user Or password.text = My.Settings.pass Then
+            Form2.Show()
+            Me.Hide()
+        Else
+            MsgBox("Username และ Password ของคุณไม่ถูกต้อง",MsgBoxStyle.Critical,"ข้อผิดพลาด")
+        End If
+    End Sub
+
+    Private Sub ButtonExit_Click(ByVal sender As System"Object, ByVal e As System.EventArgs) Handles ButtonExit_Click
+        End
+    End Sub
+End Class
+
+//หน้าต่างฟอร์มรายการเครื่องดื่ม
+Class Public Class Form2
+    Private Sub Buttonชานมไต้หวัน_Click(ByVal sender As System"Object, ByVal e As System.EventArgs) Handles Buttonชานมไต้หวัน_Click
+        Dim nam1, price1, sum1, total, get, change as integer
+            nam1 = nam1 + 1
+            price1 = 30
+            sum1 = price1 * nam1
+            textbox1.text = sum1
+            total = sum1 + sum2 + sum3 + sum4 + sum5 + sum6 + sum7 + sum8 + sum9 + sum10
+            textbox11.text = total
+            get = textbox12.text
+            change = get - textbox11.text
+            textbox13.text = change
+    End Sub
+
+    Private Sub Buttonชานมไต้หวันใส่ไข่มุก_Click(ByVal sender As System"Object, ByVal e As System.EventArgs) Handles Buttonชานมไต้หวันใส่ไข่มุก_Click
+        Dim nam2, price2, sum2, total, get, change as integer
+            nam2 = nam2 + 1
+            price2 = 35
+            sum2 = price1 * nam2
+            textbox2.text = sum2
+            total = sum1 + sum2 + sum3 + sum4 + sum5 + sum6 + sum7 + sum8 + sum9 + sum10
+            textbox11.text = total
+            get = textbox12.text
+            change = get - textbox11.text
+            textbox13.text = change
+    End Sub
+
+    Private Sub Buttonชานมเขียวมะลิ_Click(ByVal sender As System"Object, ByVal e As System.EventArgs) Handles Buttonชานมเขียวมะลิ_Click
+        Dim nam3, price3, sum3, total, get, change as integer
+            nam3 = nam3 + 1
+            price3 = 30
+            sum3 = price1 * nam3
+            textbox3.text = sum3
+            total = sum1 + sum2 + sum3 + sum4 + sum5 + sum6 + sum7 + sum8 + sum9 + sum10
+            textbox11.text = total
+            get = textbox12.text
+            change = get - textbox11.text
+            textbox13.text = change
+    End Sub
+
+    Private Sub Buttonชาเขียวมะลิใส่ไข่มุก_Click(ByVal sender As System"Object, ByVal e As System.EventArgs) Handles Buttonชาเขียวมะลิใส่ไข่มุก_Click
+        Dim nam4, price4, sum4, total, get, change as integer
+            nam4 = nam4 + 1
+            price4 = 35
+            sum4 = price4 * nam4
+            textbox4.text = sum4
+            total = sum1 + sum2 + sum3 + sum4 + sum5 + sum6 + sum7 + sum8 + sum9 + sum10
+            textbox11.text = total
+            get = textbox12.text
+            change = get - textbox11.text
+            textbox13.text = change
+    End Sub
+
+    Private Sub Buttonชานมโกโก้_Click(ByVal sender As System"Object, ByVal e As System.EventArgs) Handles Buttonชานมโกโก้_Click
+        Dim nam5, price5, sum5, total, get, change as integer
+            nam5 = nam5 + 1
+            price5 = 30
+            sum5 = price5 * nam5
+            textbox5.text = sum5
+            total = sum1 + sum2 + sum3 + sum4 + sum5 + sum6 + sum7 + sum8 + sum9 + sum10
+            textbox11.text = total
+            get = textbox12.text
+            change = get - textbox11.text
+            textbox13.text = change
+    End Sub
+
+    Private Sub Buttonชานมโกโก้ใส่ไข่มุก_Click(ByVal sender As System"Object, ByVal e As System.EventArgs) Handles Buttonชานมโกโก้ใส่ไข่มุก_Click
+        Dim nam6, price6, sum6, total, get, change as integer
+            nam6 = nam6 + 1
+            price6 = 35
+            sum6 = price6 * nam6
+            textbox6.text = sum6
+            total = sum1 + sum2 + sum3 + sum4 + sum5 + sum6 + sum7 + sum8 + sum9 + sum10
+            textbox11.text = total
+            get = textbox12.text
+            change = get - textbox11.text
+            textbox13.text = change
+    End Sub
+
+    Private Sub Buttonชาเขียวนมสด_Click(ByVal sender As System"Object, ByVal e As System.EventArgs) Handles Buttonชาเขียวนมสด_Click
+        Dim nam7, price7, sum7, total, get, change as integer
+            nam7 = nam7 + 1
+            price7 = 30
+            sum7 = price7 * nam7
+            textbox7.text = sum7
+            total = sum1 + sum2 + sum3 + sum4 + sum5 + sum6 + sum7 + sum8 + sum9 + sum10
+            textbox11.text = total
+            get = textbox12.text
+            change = get - textbox11.text
+            textbox13.text = change
+    End Sub
+
+    Private Sub Buttonชาเขียวนมสดใส่ไข่มุก_Click(ByVal sender As System"Object, ByVal e As System.EventArgs) Handles Buttonชาเขียวนมสดใส่ไข่มุก_Click
+        Dim nam8, price8, sum8, total, get, change as integer
+            nam8 = nam8 + 1
+            price8 = 35
+            sum8 = price8 * nam8
+            textbox8.text = sum8
+            total = sum1 + sum2 + sum3 + sum4 + sum5 + sum6 + sum7 + sum8 + sum9 + sum10
+            textbox11.text = total
+            get = textbox12.text
+            change = get - textbox11.text
+            textbox13.text = change
+    End Sub
+
+    Private Sub Buttonชาไทย_Click(ByVal sender As System"Object, ByVal e As System.EventArgs) Handles Buttonชาไทย_Click
+        Dim nam9, price9, sum9, total, get, change as integer
+            nam9 = nam9 + 1
+            price9 = 30
+            sum9 = price9 * nam9
+            textbox9.text = sum9
+            total = sum1 + sum2 + sum3 + sum4 + sum5 + sum6 + sum7 + sum8 + sum9 + sum10
+            textbox11.text = total
+            get = textbox12.text
+            change = get - textbox11.text
+            textbox13.text = change
+    End Sub
+
+    Private Sub Buttonชาไทยใส่ไข่มุก_Click(ByVal sender As System"Object, ByVal e As System.EventArgs) Handles Buttonชาไทยใส่ไข่มุก_Click
+        Dim nam10, price10, sum10, total, get, change as integer
+            nam10 = nam10 + 1
+            price10 = 35
+            sum10 = price10 * nam10
+            textbox10.text = sum10
+            total = sum1 + sum2 + sum3 + sum4 + sum5 + sum6 + sum7 + sum8 + sum9 + sum10
+            textbox11.text = total
+            get = textbox12.text
+            change = get - textbox11.text
+            textbox13.text = change
+    End Sub
+
+    Private Sub ButtonClear_Click(ByVal sender As System"Object, ByVal e As System.EventArgs) Handles ButtonClear_Click
+        textbox1.text = ""
+        textbox2.text = ""
+        textbox3.text = ""
+        textbox4.text = ""
+        textbox5.text = ""
+        textbox6.text = ""
+        textbox7.text = ""
+        textbox8.text = ""
+        textbox9.text = ""
+        textbox10.text = ""
+        textbox11.text = "00.00"
+        textbox12.text = ""
+        textbox13.text = "00.00"
+    End Sub
+
+    Private Sub ButtonExit_Click(ByVal sender As System"Object, ByVal e As System.EventArgs) Handles ButtonExit_Click
+        End
+    End Sub
+End Class
